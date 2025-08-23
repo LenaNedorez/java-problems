@@ -1,0 +1,4 @@
+package ru.nedorezova.algorithProblems;
+
+public class MaxAmount {
+}
