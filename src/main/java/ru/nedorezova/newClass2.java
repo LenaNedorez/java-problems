@@ -3,6 +3,8 @@ package ru.nedorezova;
 public class newClass2 {
     public static void main(String[] args) {
         int[] arr = {5, -1, -3};
+        int d = subarray(arr);
+        System.out.println(d);
         System.out.println(subarray(arr));
     }
 

@@ -18,7 +18,6 @@ public class TreeNode {
 
     public List<Integer> toArray() {
         List<Integer> result = new ArrayList<>();
-        if (this == null) return result;
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(this); // Начинаем с корневого узла

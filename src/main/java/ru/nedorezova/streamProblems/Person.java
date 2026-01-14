@@ -3,6 +3,9 @@ package ru.nedorezova.streamProblems;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//Дан список объектов Person с полями name (String) и age (int).
+// Необходимо отфильтровать всех людей старше 18 лет и собрать их имена в новый список.
+
 public class Person {
     private String name;
     private int age;
